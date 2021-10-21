@@ -1,0 +1,111 @@
+/*Metodologia*/
+
+.ola-met {
+    margin-top: 15rem;
+}
+
+.contenedorSobre15 {
+    background-color: $naranja;
+}
+
+.seccion15 {
+    width: 800px;
+    height: 300px;
+    margin-left: 4rem;
+    &__titulo15 {
+        color: $rojo;
+        padding-top: 4rem;
+    }
+    &__texto15 {
+        padding-top: 2rem;
+        color: $azul;
+    }
+}
+
+.sobreGif15 {
+    margin-left: 60rem;
+    margin-top: -17rem;
+    height: 350px;
+    width: 450px;
+    border-radius: 5%;
+}
+
+.seccion-met16 {
+    background-color: $naranja;
+}
+
+.seccion16 {
+    width: 800px;
+    height: 300px;
+    margin-left: 43rem;
+    &__titulo16 {
+        color: $rojo;
+        padding-top: 2rem;
+    }
+    &__texto16 {
+        padding-top: 2rem;
+        color: $azul;
+    }
+}
+
+.imagen-pic {
+    height: 350px;
+    width: 450px;
+    margin-top: -20rem;
+    margin-left: 2rem;
+    border-radius: 5%;
+}
+
+@include tablet {
+    .seccion15 {
+        width: 500px;
+        height: 300px;
+        margin-left: 7rem;
+        font-size: 0.8rem;
+    }
+    .sobreGif15 {
+        margin-left: 7rem;
+        margin-top: -2rem;
+        height: 300px;
+        width: 450px;
+    }
+    .seccion16 {
+        width: 500px;
+        height: 300px;
+        margin-left: 7rem;
+        font-size: 0.8rem;
+    }
+    .imagen-pic {
+        margin-top: -2rem;
+        margin-left: 7rem;
+        height: 300px;
+        width: 450px;
+    }
+}
+
+@include movil {
+    .seccion15 {
+        width: 300px;
+        height: 300px;
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+    .sobreGif15 {
+        margin-left: 2rem;
+        margin-top: 0rem;
+        height: 200px;
+        width: 350px;
+    }
+    .seccion16 {
+        width: 300px;
+        height: 300px;
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+    .imagen-pic {
+        margin-left: 2rem;
+        margin-top: 0rem;
+        height: 200px;
+        width: 350px;
+    }
+}
