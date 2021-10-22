@@ -1,14 +1,22 @@
+/*utilities*/
+
 @import"./utilities/variables";
 @import"./utilities/mixin";
+
+/*layout*/
+
 @import"./layout/footer";
 @import"./layout/header";
+
+/*views*/
+
 @import"./views/index";
 @import"./views/Aplicaciones";
 @import"./views/Conacto";
 @import"./views/Metodologia";
 @import"./views/Sobre-nosotros";
 @import"./views/Pagina-web";
-@import"./views/error-404";
+@import"./views/404page";
 body {
-    background-color: #f2dc99;
+    background-color: $beige;
 }
