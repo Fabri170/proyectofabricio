@@ -12,8 +12,8 @@
 
 .article45 {
     margin-top: 15rem;
-    width: 800px;
-    height: 300px;
+    width: 50rem;
+    height: 18.75rem;
     margin-left: 2rem;
     &__titulo45 {
         padding-top: 5rem;
@@ -27,8 +27,8 @@
 .sobreGif30 {
     margin-left: 55rem;
     margin-top: -22rem;
-    height: 450px;
-    width: 550px;
+    height: 28.125rem;
+    width: 34.375rem;
     border-radius: 5%;
 }
 
@@ -39,8 +39,8 @@
 
 .article46 {
     margin-top: -8rem;
-    width: 800px;
-    height: 300px;
+    width: 50rem;
+    height: 18.75rem;
     margin-left: 2rem;
     &__titulo46 {
         padding-top: 5rem;
@@ -49,10 +49,6 @@
     &__texto46 {
         color: $azul;
     }
-}
-
-.section-contacto {
-    margin-top: 20rem;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
@@ -154,29 +150,31 @@ body {
 }
 
 .contacto {
-    position: relative;
-    margin: 100px 0 35px 0;
-    font-size: 2.6em;
+    margin-top: 10rem;
+    font-size: 2rem;
     text-align: center;
-    letter-spacing: 7px;
+}
+
+.section-contacto {
+    margin-top: 1rem;
 }
 
 #form {
     position: relative;
-    width: 500px;
-    margin: 50px auto 100px auto;
+    width: 31.25rem;
+    margin: 3.125rem auto 6.25rem auto;
 }
 
 input {
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;
-    width: 470px;
-    height: 50px;
-    padding: 0px 15px 0px 15px;
+    width: 29.375rem;
+    height: 3.125rem;
+    padding: 0rem 0.9375rem 0rem 0.9375rem;
     background: transparent;
     outline: none;
     color: #726659;
-    border: solid 1px #b3aca7;
+    border: solid 0.0625rem #b3aca7;
     border-bottom: none;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -190,17 +188,17 @@ input:hover {
 }
 
 textarea {
-    width: 470px;
-    max-width: 470px;
-    height: 110px;
-    max-height: 110px;
-    padding: 15px;
+    width: 29.375rem;
+    max-width: 29.375rem;
+    height: 6.875rem;
+    max-height: 6.875rem;
+    padding: 0.9375rem;
     background: transparent;
     outline: none;
     color: #726659;
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;
-    border: solid 1px #b3aca7;
+    border: solid 0.0625rem #b3aca7;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -213,15 +211,15 @@ textarea:hover {
 }
 
 #submit {
-    width: 502px;
+    width: 31.375rem;
     padding: 0;
-    margin: -5px 0px 0px 0px;
+    margin: -0.3125rem 0rem 0rem 0rem;
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;
     color: #b3aca7;
     outline: none;
     cursor: pointer;
-    border: solid 1px #b3aca7;
+    border: solid 0.0625rem #b3aca7;
     border-top: none;
 }
 
@@ -229,37 +227,59 @@ textarea:hover {
     color: #e2dedb;
 }
 
+.topBefore {
+    width: auto;
+}
+
 @include tablet {
     .article45 {
-        width: 500px;
-        height: 300px;
+        width: 28.25rem;
+        height: 16.75rem;
         margin-left: 7rem;
-        font-size: 0.8rem;
-    }
-    .article46 {
-        padding-top: 2rem;
-        width: 500px;
-        height: 300px;
-        margin-left: 7rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        &__titulo45 {
+            font-size: 1rem;
+        }
     }
     .sobreGif30 {
         margin-left: 7rem;
-        height: 250px;
-        width: 250px;
+        height: 15.625rem;
+        width: 17.625rem;
+    }
+    .article46 {
+        width: 28.25rem;
+        height: 16.75rem;
+        margin-left: 7rem;
+        font-size: 0.7rem;
+        &__titulo46 {
+            margin-top: 1.5rem;
+            font-size: 1rem;
+        }
+    }
+    .contacto {
+        color: $azul;
+        margin-left: -7rem;
+    }
+    .section-contacto {
+        margin-left: 4.2rem;
+        width: 33rem;
+        font-size: 0.5rem;
+    }
+    .topBefore {
+        width: auto;
     }
 }
 
 @include movil {
     .article45 {
-        width: 300px;
-        height: 300px;
+        width: 18.75rem;
+        height: 18.75rem;
         margin-left: 2rem;
         font-size: 0.8rem;
     }
     .article46 {
-        width: 300px;
-        height: 300px;
+        width: 18.75rem;
+        height: 18.75rem;
         margin-left: 2rem;
         font-size: 0.8rem;
         margin-top: -3rem;
@@ -267,10 +287,190 @@ textarea:hover {
     .sobreGif30 {
         margin-top: -15rem;
         margin-left: 2rem;
-        height: 250px;
-        width: 250px;
+        height: 15.625rem;
+        width: 15.625rem;
+    }
+    .contacto {
+        margin-left: 2rem;
+        font-size: 1rem;
     }
     .section-contacto {
-        font-size: 0.8rem;
+        margin-left: 0rem;
+        font-size: 0.5rem;
+        width: auto;
+    }
+}
+
+.tit-contacto {
+    margin-left: 40rem;
+    font-size: 2rem;
+    color: $azul;
+}
+
+#boxContent {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#boxContent h1 {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 100;
+}
+
+.contenedorForm {
+    display: block;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.campoTexto {
+    width: 76%;
+    padding: 0.3125rem 0.5625rem;
+    height: 1.5625rem;
+    border: 0;
+    border-radius: 0.1875rem;
+    box-shadow: inset 0rem 0rem 0.125rem rgba(0, 0, 0, 0.3);
+    outline: none;
+    font-size: 18px;
+    position: relative;
+}
+
+.campoTexto:focus {
+    box-shadow: inset 0rem 0rem 0.375rem rgba(0, 0, 0, 0.2);
+}
+
+#nombre {
+    margin: 0.3125rem 0 0.3125rem -0.625rem;
+}
+
+#email {
+    margin: 0.3125rem -0.625rem 0.3125rem 0;
+}
+
+#mensaje {
+    margin: 0.3125rem 0 0.625rem -1.125rem;
+    height: 4.375rem;
+    padding: 0.3125rem 0.9375rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 4.375rem;
+    max-width: 76%;
+}
+
+.enviar-btn {
+    width: 30%;
+    display: block;
+    margin: 0.625rem auto;
+    padding: 0.625rem 0.125rem;
+    background: $naranja;
+    font-size: 20px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.enviar-btn:hover {
+    opacity: 0.9;
+}
+
+.enviar-btn:active {
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3);
+    outline: none;
+    color: #fff;
+}
+
+#formMobile {
+    display: none;
+}
+
+label {
+    background: $azul;
+    border-radius: 100%;
+    padding: 10px;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    color: $naranja;
+    line-height: 120px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+/*Media queries*/
+
+@media screen and (max-width:1024px) {
+    /*Maximo pantallas pequeñas*/
+    #boxContent {
+        width: 84%;
+    }
+}
+
+
+/*Minimo pantallas pequeñas*/
+
+@include tablet {
+    #boxContent {
+        width: 64%;
+    }
+    .tit-contacto {
+        margin-left: 10rem;
+        font-size: 1.4rem;
+        color: $azul;
+    }
+}
+
+@media screen and (max-width:425px) {
+    /*Estilos para móviles*/
+    #formContent {
+        display: none;
+    }
+    #formMobile {
+        display: block;
+    }
+    .radio {
+        visibility: hidden;
+        display: none;
+    }
+    label {
+        display: block;
+        margin: 0 auto;
+        text-decoration: underline;
+    }
+    .campoTexto {
+        transition: .2s;
+        /*Dar compatibilidad*/
+        margin: 0.625rem auto;
+        opacity: 0;
+        display: block;
+    }
+    #radioNombre:checked~#nombreMobile {
+        opacity: 1;
+    }
+    #radioEmail:checked~#emailMobile {
+        opacity: 1;
+    }
+    #radioMensaje:checked~#mensajeMobile {
+        opacity: 1;
+    }
+    .tit-contacto {
+        width: 10rem;
+        font-size: 1.2rem;
+        margin-left: 12rem;
+    }
+    .contacto1 {
+        border: solid;
+        margin-left: -7rem;
+        width: 2rem;
+    }
+    .campoTexto {
+        width: 12rem;
     }
 }

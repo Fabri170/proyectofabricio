@@ -2,19 +2,6 @@
 
 /*footer*/
 
-
-/*
-.bannerInferior {
-    color: #f2dc99;
-    width: 100%;
-    height: 80px;
-    text-align: center;
-    padding-top: 30px;
-    margin-top: 50rem;
-    background-color: #f29d35;
-}
-*/
-
 .ola-footer {
     margin-top: 20rem;
 }
@@ -25,13 +12,14 @@
 }
 
 .footer-distributed {
+    position: block;
     background: $naranja;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 16px sans-serif;
-    padding: 30px 50px;
+    font: bold 1rem sans-serif;
+    padding: 1.875rem 3.125rem;
 }
 
 .footer-distributed .footer-left,
@@ -56,7 +44,7 @@
 
 .footer-distributed .footer-links {
     color: $azul;
-    margin: 25px 0 25px;
+    margin: 1.5625rem 0 1.5625rem;
     padding: 0;
 }
 
@@ -66,12 +54,12 @@
     font-weight: 400;
     text-decoration: none;
     color: inherit;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .footer-distributed .footer-company-name {
     color: $azul;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: normal;
     margin: 0;
 }
@@ -86,19 +74,19 @@
 .footer-distributed .footer-center i {
     background-color: $azul;
     color: $azul;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
+    font-size: 1.5625rem;
+    width: 2.375rem;
+    height: 2.375rem;
     border-radius: 50%;
     text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
+    line-height: 2.625rem;
+    margin: 0.625rem 0.9375rem;
     vertical-align: middle;
 }
 
 .footer-distributed .footer-center i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
+    font-size: 1.0625rem;
+    line-height: 2.375rem;
 }
 
 .footer-distributed .footer-center p {
@@ -112,7 +100,7 @@
 .footer-distributed .footer-center p span {
     display: block;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 2;
 }
 
@@ -123,11 +111,11 @@
 .footer-distributed .footer-links a:before {
     content: "|";
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25rem;
     left: 0;
     color: $azul;
     display: inline-block;
-    padding-right: 5px;
+    padding-right: 0.3125rem;
 }
 
 .footer-distributed .footer-links .link-1:before {
@@ -142,9 +130,9 @@
 }
 
 .footer-distributed .footer-company-about {
-    line-height: 20px;
+    line-height: 1.25rem;
     color: $azul;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: normal;
     margin: 0;
 }
@@ -152,28 +140,28 @@
 .footer-distributed .footer-company-about span {
     display: block;
     color: $azul;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .footer-distributed .footer-icons {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 }
 
 .footer-distributed .footer-icons a {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 2.1875rem;
+    height: 2.1875rem;
     cursor: pointer;
     background-color: $azul;
-    border-radius: 2px;
-    font-size: 20px;
+    border-radius: 0.125rem;
+    font-size: 1.25rem;
     color: $azul;
     text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
+    line-height: 2.1875rem;
+    margin-right: 0.1875rem;
+    margin-bottom: 0.3125rem;
 }
 
 
@@ -181,14 +169,15 @@
 
 @media (max-width: 880px) {
     .footer-distributed {
-        font: bold 14px sans-serif;
+        font: bold 0.875rem sans-serif;
+        position: block;
     }
     .footer-distributed .footer-left,
     .footer-distributed .footer-center,
     .footer-distributed .footer-right {
         display: block;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
         text-align: center;
     }
     .footer-distributed .footer-center i {

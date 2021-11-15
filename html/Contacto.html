@@ -61,7 +61,7 @@
 
         <article class="article45">
             <div class="article45__div45">
-                <h1 class="article45__titulo45">Presupuesto App</h1>
+                <h1 class="article45__titulo45">Presupuesto Apps</h1>
                 <p class="article45__texto45">No existe un presupuesto para crear una app exacto, sin previo estudio. Para conocer el coste de una aplicación móvil en android o iPhone detallado, comenzamos con el estudio personalizado de la idea de cada cliente. Todas las apps web
                     son diferentes, por lo que es necesario detallar todas y cada una de las aplicaciones o funciones que llevaría su proyecto web y nuestro equipo de programadores revisará cada punto.</p>
             </div>
@@ -81,19 +81,52 @@
         </article>
     </section>
     <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-2.03,19.82 C294.24,154.04 184.20,154.04 505.30,17.85 L508.69,0.10 L0.00,0.00 Z" style="stroke: none; fill: #d9cdb8;"></path></svg></div>
-    <section class="section-contacto">
-        <h4 class="contacto">COMUNICATE CON NOSOTROS</h4>
 
-        <form id="form" class="topBefore">
 
-            <input id="name" type="text" placeholder="NOMBRE">
-            <input id="email" type="text" placeholder="E-MAIL">
-            <textarea id="message" type="text" placeholder="MENSAJE"></textarea>
-            <input id="submit" type="submit" value="ENVIAR">
 
-        </form>
+    <section class="contacto1">
+        <div id="boxContent">
+            <!-- Formlario principal -->
+            <h4 class="tit-contacto"> Contáctanos</h4>
+            <form id="form">
+                <div id="formContent">
+                    <div class="contenedorForm">
+                        <label for="nombre">nombre:</label>
+                        <input class="campoTexto" type="text" required id="nombre" name="nombre">
+                    </div>
+                    <div class="contenedorForm derecha">
+                        <input class="campoTexto" type="email" required id="email" name="mail">
+                        <label for="email">correo:</label>
+                    </div>
+                    <div class="contenedorForm">
+                        <label for="mensaje">mensaje:</label>
+                        <textarea class="campoTexto" id="mensaje" required></textarea>
+                    </div>
+                    <input type="submit" value="enviar" class="enviar-btn">
+                </div>
+
+
+                <!-- Formulario para móviles -->
+                <div id="formMobile">
+                    <input type="radio" name="radio-1" class="radio" id="radioNombre">
+                    <label for="radioNombre">nombre:</label>
+                    <input type="text" id="nombreMobile" class="campoTexto" required placeholder="nombre completo">
+                    <input type="radio" name="radio-2" class="radio" id="radioEmail">
+                    <label for="radioEmail">correo:</label>
+                    <input type="email" id="emailMobile" class="campoTexto" required placeholder="correo electronico">
+                    <input type="radio" name="radio-3" class="radio" id="radioMensaje">
+                    <label for="radioMensaje">mensaje:</label>
+                    <textarea id="mensajeMobile" class="campoTexto" required placeholder="mensaje.."></textarea>
+
+                    <input type="submit" value="enviar" class="enviar-btn">
+                </div>
+
+            </form>
+
+        </div>
 
     </section>
+
 
     <!-- Pie de página -->
     <div class="ola-footer" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-2.03,112.59 C224.83,153.05 327.54,40.55 502.48,100.75 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f29d35;"></path></svg></div>
@@ -143,16 +176,16 @@
 
         <div class="footer-right">
 
-            <p class="footer-company-about">
-                <span>About the company</span> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            <p class="footer-company-about ">
+                <span>Nos puedes encontrar</span> Nos puedes encontrar en diferentes plataformas como facebook, twitter, linkedin, github.
             </p>
 
             <div class="footer-icons">
 
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
+                <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" /><i class="fa fa-facebook"></i></a>
+                <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" /><i class="fa fa-twitter"></i></a>
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png" /><i class="fa fa-linkedin"></i></a>
+                <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png" /><i class="fa fa-github"></i></a>
 
             </div>
 

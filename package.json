@@ -14,5 +14,13 @@
     "nodemon": "^2.0.14"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabri170/proyectofabricio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fabri170/proyectofabricio/issues"
+  },
+  "homepage": "https://github.com/Fabri170/proyectofabricio#readme",
   "description": ""
 }
