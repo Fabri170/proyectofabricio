@@ -231,76 +231,6 @@ textarea:hover {
     width: auto;
 }
 
-@include tablet {
-    .article45 {
-        width: 28.25rem;
-        height: 16.75rem;
-        margin-left: 7rem;
-        font-size: 0.7rem;
-        &__titulo45 {
-            font-size: 1rem;
-        }
-    }
-    .sobreGif30 {
-        margin-left: 7rem;
-        height: 15.625rem;
-        width: 17.625rem;
-    }
-    .article46 {
-        width: 28.25rem;
-        height: 16.75rem;
-        margin-left: 7rem;
-        font-size: 0.7rem;
-        &__titulo46 {
-            margin-top: 1.5rem;
-            font-size: 1rem;
-        }
-    }
-    .contacto {
-        color: $azul;
-        margin-left: -7rem;
-    }
-    .section-contacto {
-        margin-left: 4.2rem;
-        width: 33rem;
-        font-size: 0.5rem;
-    }
-    .topBefore {
-        width: auto;
-    }
-}
-
-@include movil {
-    .article45 {
-        width: 18.75rem;
-        height: 18.75rem;
-        margin-left: 2rem;
-        font-size: 0.8rem;
-    }
-    .article46 {
-        width: 18.75rem;
-        height: 18.75rem;
-        margin-left: 2rem;
-        font-size: 0.8rem;
-        margin-top: -3rem;
-    }
-    .sobreGif30 {
-        margin-top: -15rem;
-        margin-left: 2rem;
-        height: 15.625rem;
-        width: 15.625rem;
-    }
-    .contacto {
-        margin-left: 2rem;
-        font-size: 1rem;
-    }
-    .section-contacto {
-        margin-left: 0rem;
-        font-size: 0.5rem;
-        width: auto;
-    }
-}
-
 .tit-contacto {
     margin-left: 40rem;
     font-size: 2rem;
@@ -472,5 +402,75 @@ label {
     }
     .campoTexto {
         width: 12rem;
+    }
+}
+
+@include tablet {
+    .article45 {
+        width: 28.25rem;
+        height: 16.75rem;
+        margin-left: 7rem;
+        font-size: 0.7rem;
+        &__titulo45 {
+            font-size: 1rem;
+        }
+    }
+    .sobreGif30 {
+        margin-left: 7rem;
+        height: 15.625rem;
+        width: 17.625rem;
+    }
+    .article46 {
+        width: 28.25rem;
+        height: 16.75rem;
+        margin-left: 7rem;
+        font-size: 0.7rem;
+        &__titulo46 {
+            margin-top: 1.5rem;
+            font-size: 1rem;
+        }
+    }
+    .contacto {
+        color: $azul;
+        margin-left: -7rem;
+    }
+    .section-contacto {
+        margin-left: 4.2rem;
+        width: 33rem;
+        font-size: 0.5rem;
+    }
+    .topBefore {
+        width: auto;
+    }
+}
+
+@include movil {
+    .article45 {
+        width: 18.75rem;
+        height: 18.75rem;
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    }
+    .article46 {
+        width: 18.75rem;
+        height: 18.75rem;
+        margin-left: 2rem;
+        font-size: 0.8rem;
+        margin-top: -3rem;
+    }
+    .sobreGif30 {
+        margin-top: -15rem;
+        margin-left: 2rem;
+        height: 15.625rem;
+        width: 15.625rem;
+    }
+    .contacto {
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+    .section-contacto {
+        margin-left: 0rem;
+        font-size: 0.5rem;
+        width: auto;
     }
 }
